@@ -11,31 +11,30 @@ export class HeaderComponent {
   constructor(){
     this.items = [];
   }
+  
   items: MenuItem[];
   ngOnInit() {
     this.items = [
         {
-            label: 'File',
+            label: 'Menu',
             items: [{
-                    label: 'New', 
-                    icon: 'pi pi-fw pi-plus',
+                    label: 'Usuario', 
+                    icon: 'pi pi-fw pi-id-card',
                     items: [
-                        {label: 'Project'},
-                        {label: 'Other'},
+                        {label: 'Email', icon: 'pi pi-fw pi-envelope'},
+                        {label: 'Contraseña', icon: 'pi pi-fw pi-key'},
                     ]
                 },
-                {label: 'Open'},
-                {label: 'Quit'}
+                {label: 'Login', icon: ' pi pi-fw pi-user'},
+                {label: 'Register', icon: 'pi pi-fw pi-pencil'}
             ]
+
+            
         },
         {
-            label: 'Edit',
-            icon: 'pi pi-fw pi-pencil',
-            items: [
-                {label: 'Delete', icon: 'pi pi-fw pi-trash'},
-                {label: 'Refresh', icon: 'pi pi-fw pi-refresh'}
-            ]
+            label: 'Mar Rodríguez'
         }
+
     ];
 }
 
