@@ -1,6 +1,6 @@
 # Componente
 
-Un componente en Angular es un elemento que está compuesto por:
+ en Angular es un elemento que está compuesto por:
 
 •	Un archivo que será nuestro Template (app.component.html), el cual es nuestro HTML, que es el que se va a visualizar en la interfaz de usuario, la vista o en términos más simples lo que vas a ver en la página. 
 
